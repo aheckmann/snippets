@@ -100,6 +100,8 @@ snippet ao
 	assert.ok(${1});
 snippet aie
 	assert.ifError(err);${1}
+snippet iec
+	if (err) return cb(err);${1}
 snippet ien
 	if (err) return next(err);${1}
 snippet ied
