@@ -33,13 +33,17 @@ snippet f
 snippet ff
 	function ${1}(${2}) {
 		${3}
-	};
+	}
 # named function with err
 snippet fe
 	function ${1:function_name} (err, ${2}) {
 		if (err) ${3}
 		${4}
-	};
+	}
+snippet fg
+	function* ${1:function_name} (${2}) {
+		${3}
+	}
 # modele exports
 snippet me
 	module.exports = ${1}
